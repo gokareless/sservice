@@ -8,7 +8,7 @@ public class AppController {
 
     @RequestMapping("/release")
     Release release() {
-        return new Release("@sservice",  "1.0");
+        return new Release("@sservice",  "2.0");
     }
 
     static class Release {
